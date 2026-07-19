@@ -1,338 +1,234 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Sukh Suvidha Micro Care Foundation</title>
 
-<style>
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-body{
-    background:#f5f7fa;
-    color:#333;
-}
-
-header{
-    background:#0A4D68;
-    color:#fff;
-    padding:18px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    position:sticky;
-    top:0;
-}
-
-header h2{
-    color:#fff;
-}
-
-nav a{
-    color:white;
-    text-decoration:none;
-    margin-left:20px;
-    font-weight:bold;
-}
-
-.hero{
-    height:90vh;
-    background:linear-gradient(rgba(10,77,104,.75),rgba(10,77,104,.75)),
-    url("https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1600&q=80");
-    background-size:cover;
-    background-position:center;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    color:white;
-}
-
-.hero h1{
-    font-size:55px;
-}
-
-.hero p{
-    margin:20px 0;
-    font-size:20px;
-}
-
-.btn{
-    background:#FFD166;
-    color:#000;
-    padding:14px 28px;
-    text-decoration:none;
-    border-radius:6px;
-    font-weight:bold;
-}
-
-section{
-    padding:70px 8%;
-}
-
-.title{
-    text-align:center;
-    color:#0A4D68;
-    margin-bottom:40px;
-}
-
-.about p{
-    max-width:900px;
-    margin:auto;
-    line-height:1.8;
-    text-align:center;
-}
-
-.services{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:25px;
-}
-
-.card{
-    background:white;
-    padding:30px;
-    border-radius:10px;
-    box-shadow:0 5px 15px rgba(0,0,0,.1);
-    transition:.3s;
-}
-
-.card:hover{
-    transform:translateY(-8px);
-}
-
-.card h3{
-    color:#0A4D68;
-    margin-bottom:15px;
-}
-
-.features{
-    display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
-    gap:20px;
-}
-
-.feature{
-    background:#0A4D68;
-    color:white;
-    padding:25px;
-    border-radius:10px;
-    text-align:center;
-}
-
-.contact{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:40px;
-}
-
-input,textarea{
-    width:100%;
-    padding:12px;
-    margin-bottom:15px;
-}
-
-button{
-    background:#0A4D68;
-    color:white;
-    border:none;
-    padding:12px 25px;
-    cursor:pointer;
-}
-
-footer{
-    background:#0A4D68;
-    color:white;
-    text-align:center;
-    padding:20px;
-}
-
-@media(max-width:768px){
-
-header{
-flex-direction:column;
-}
-
-nav{
-margin-top:15px;
-}
-
-.hero h1{
-font-size:36px;
-}
-
-.contact{
-grid-template-columns:1fr;
-}
-
-}
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
 
 <header>
-<h2>Sukh Suvidha Micro Care</h2>
+    <div class="logo">
+        <h1>Sukh Suvidha Micro Care Foundation</h1>
+        <p>Serving Society | Empowering Communities</p>
+    </div>
 
-<nav>
-<a href="#">Home</a>
-<a href="#about">About</a>
-<a href="#services">Services</a>
-<a href="#contact">Contact</a>
-</nav>
-
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Our Work</a>
+        <a href="#leadership">Leadership</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section class="hero">
 
-<div>
+<section id="home" class="hero">
 
-<h1>Sukh Suvidha Micro Care</h1>
+<h2>Building Hope, Creating Opportunities</h2>
 
-<p>Trusted Financial Solutions for Everyone</p>
+<p>
+A dedicated non-profit organization working towards education,
+rural development, women empowerment, sustainable farming and
+community welfare.
+</p>
 
-<a href="#contact" class="btn">Get Started</a>
-
-</div>
+<a href="#contact" class="btn">
+Contact Us
+</a>
 
 </section>
 
-<section id="about" class="about">
 
-<h2 class="title">About Us</h2>
+
+<section id="about">
+
+<h2>About Us</h2>
 
 <p>
-Sukh Suvidha Micro Care Foundation is a dedicated non-profit organization working towards holistic community development in both rural and urban areas.
-Our core focus areas include Education & Literacy, Rural and Urban Development, Poverty Alleviation, Women’s Development & Empowerment,
-Agriculture & Sustainable Farming, Environment & Climate Action, and Sustainable Livelihood Programs.Through these initiatives, we strive to bring lasting
-positive change in the lives of underprivileged and marginalized communities across rural and urban landscapes.
+Sukh Suvidha Micro Care Foundation is a dedicated non-profit organization
+working towards holistic community development and sustainable progress.
 
-
+Our mission is to bring positive change in the lives of underprivileged,
+marginalized and rural communities through education, empowerment and
+sustainable livelihood programs.
 </p>
 
 </section>
 
+
+
+
+<section id="leadership">
+
+<h2>Our Leadership</h2>
+
+
+<div class="card">
+
+<h3>Mr. Veer Pratap Singh</h3>
+
+<p>
+Director & CEO
+</p>
+
+<p>
+Leading the organization with a vision of inclusive growth,
+community empowerment and sustainable development.
+</p>
+
+</div>
+
+
+
+<div class="card">
+
+<h3>Mr. Pankaj Kumar</h3>
+
+<p>
+President & Director
+</p>
+
+<p>
+Supporting the mission of creating meaningful social impact
+through dedicated community initiatives.
+</p>
+
+</div>
+
+
+</section>
+
+
+
+
 <section id="services">
 
-<h2 class="title">Our Services</h2>
+<h2>Our Focus Areas</h2>
 
-<div class="services">
 
-<div class="card">
-<h3>Micro Finance</h3>
-<p>Easy financial assistance for individuals and small businesses.</p>
-</div>
+<div class="grid">
+
 
 <div class="card">
-<h3>Loan Assistance</h3>
-<p>Guidance and support for various types of loans.</p>
+<h3>Education & Literacy</h3>
+<p>
+Promoting learning opportunities and improving access to education.
+</p>
 </div>
 
-<div class="card">
-<h3>Insurance Services</h3>
-<p>Affordable insurance solutions for your family and business.</p>
-</div>
 
 <div class="card">
-<h3>Customer Support</h3>
-<p>Dedicated support with fast and reliable service.</p>
+<h3>Rural Development</h3>
+<p>
+Supporting rural communities and poverty alleviation programs.
+</p>
 </div>
+
+
+<div class="card">
+<h3>Women Empowerment</h3>
+<p>
+Creating opportunities for women's development and independence.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Agriculture & Sustainable Farming</h3>
+<p>
+Encouraging sustainable agricultural practices.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Environment & Climate Action</h3>
+<p>
+Working towards environmental protection and awareness.
+</p>
+</div>
+
+
+<div class="card">
+<h3>Community Health</h3>
+<p>
+Supporting health awareness and welfare initiatives.
+</p>
+</div>
+
 
 </div>
 
 </section>
 
-<section>
 
-<h2 class="title">Why Choose Us</h2>
 
-<div class="features">
 
-<div class="feature">
-<h3>Trusted Service</h3>
-</div>
 
-<div class="feature">
-<h3>Quick Processing</h3>
-</div>
+<section class="gallery">
 
-<div class="feature">
-<h3>Affordable Solutions</h3>
-</div>
+<h2>Our Community Work</h2>
 
-<div class="feature">
-<h3>Experienced Team</h3>
-</div>
+<div class="images">
+
+<img src="https://images.unsplash.com/photo-1509099836639-18ba02b57f7b">
+
+<img src="https://images.unsplash.com/photo-1529390079861-591de354faf5">
+
+<img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee">
 
 </div>
 
 </section>
+
+
+
+
 
 <section id="contact">
 
-<h2 class="title">Contact Us</h2>
+<h2>Contact Us</h2>
 
-<div class="contact">
+<p>
+<b>Address:</b><br>
+Plot No.10, Kha No.418,<br>
+Daud Nagar, Faizullaganj,<br>
+Daliganj, Lucknow,<br>
+Uttar Pradesh - 226020
+</p>
 
-<div>
 
-<h3>Contact Information</h3>
+<p>
+<b>Phone:</b> 9454349596
+</p>
 
-<br>
 
-<p><b>Company:</b> Sukh Suvidha Micro Care</p>
+<p>
+<b>Email:</b> customercare@sukhsuvidha.com
+</p>
 
-<p><b>Phone:</b> +91 XXXXX XXXXX</p>
-
-<p><b>Email:</b> info@sukhsuvidhamicrocare.com</p>
-
-<p><b>Address:</b> Your Office Address</p>
-
-</div>
-
-<div>
-
-<form onsubmit="sendMessage(event)">
-
-<input type="text" placeholder="Your Name" required>
-
-<input type="email" placeholder="Email Address" required>
-
-<textarea rows="5" placeholder="Message"></textarea>
-
-<button type="submit">Send Message</button>
-
-</form>
-
-</div>
-
-</div>
 
 </section>
 
+
+
 <footer>
 
-© 2026 Sukh Suvidha Micro Care. All Rights Reserved.
+<p>
+© 2026 Sukh Suvidha Micro Care Foundation.
+All Rights Reserved.
+</p>
 
 </footer>
 
-<script>
 
-function sendMessage(e){
-
-e.preventDefault();
-
-alert("Thank you! Your message has been received.");
-
-}
-
-</script>
+<script src="script.js"></script>
 
 </body>
 </html>
