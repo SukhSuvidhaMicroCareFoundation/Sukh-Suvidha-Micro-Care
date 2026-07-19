@@ -245,3 +245,35 @@ margin:10px;
 }
 
 }
+header {
+    background: #00695c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 50px;       /* Change to 40px if you want it even smaller */
+    height: 50px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo-text h1 {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo-text p {
+    color: white;
+    margin: 2px 0 0;
+    font-size: 13px;
+}
